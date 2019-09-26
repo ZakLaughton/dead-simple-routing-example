@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 const AppRouter = () => (
   <BrowserRouter>
-    <Route exact path='/:parameter1/:parameter2/:parameter3' render={props => <App {...props} />} />
+    <Route path='/:parameter1/:parameter2/:parameter3' render={props => <App {...props} />} />
   </BrowserRouter>
 );
 
